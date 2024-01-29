@@ -291,7 +291,7 @@ const achievementSection = {
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
+        { name: "Certification", url: "" },
         {
           name: "Final Project",
           url: "https://pakistan-olx-1.firebaseapp.com/"
@@ -330,7 +330,7 @@ const blogSection = {
     },
     {
       url: "https://www.linkedin.com/pulse/python-mutable-immutable-everything-object-farouk-ben-miled%3FtrackingId=jrI9zTZW5R8xN0DSXyZm6g%253D%253D/?trackingId=jrI9zTZW5R8xN0DSXyZm6g%3D%3D",
-      title:"Python: Mutable, Immutable... everything is object!",
+      title: "Python: Mutable, Immutable... everything is object!",
       description:
         "Python is an object-oriented programming language, and in Python everything is an object. Almost every object has some metadata (called attributes)..."
     }
