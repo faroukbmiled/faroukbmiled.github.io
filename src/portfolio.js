@@ -49,12 +49,15 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "Backend Mastery",
-  subTitle: "Passionate Full Stack Web Developer with a Strong Emphasis on Backend Technologies",
+  subTitle:
+    "Passionate Full Stack Web Developer with a Strong Emphasis on Backend Technologies",
   skills: [
     emoji(
       "⚡ Expertise in developing robust backend systems to power your web and mobile applications"
     ),
-    emoji("⚡ Building Progressive Web Applications (PWAs) with a focus on server-side functionalities"),
+    emoji(
+      "⚡ Building Progressive Web Applications (PWAs) with a focus on server-side functionalities"
+    ),
     emoji(
       "⚡ Seamless integration of third-party services like OAuth for secure authentication..."
     )
@@ -131,9 +134,7 @@ const educationInfo = {
       subHeader: "Business computing",
       duration: "2020 - 2022",
       desc: "",
-      descBullets: [
-
-      ]
+      descBullets: []
     },
     {
       schoolName: "Holberton School",
@@ -162,7 +163,7 @@ const techStack = {
     {
       Stack: "Frontend",
       progressPercentage: "60%"
-    },
+    }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -291,7 +292,7 @@ const achievementSection = {
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "PWA Logo",
       footerLink: [
-        { name: "Certification", url: "" },
+        {name: "Certification", url: ""},
         {
           name: "Final Project",
           url: "https://pakistan-olx-1.firebaseapp.com/"
@@ -375,7 +376,7 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+21650535482",
-  email_address: "faroukbmiled@gmail.com",
+  email_address: "faroukbmiled@gmail.com"
 };
 
 // Twitter Section
